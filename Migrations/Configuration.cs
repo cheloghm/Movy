@@ -9,7 +9,7 @@ namespace Movy.Migrations
     {
         public Configuration()
         {
-            AutomaticMigrationsEnabled = false;
+            AutomaticMigrationsEnabled = true;
         }
 
         protected override void Seed(Movy.Models.ApplicationDbContext context)
