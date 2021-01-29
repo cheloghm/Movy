@@ -14,5 +14,8 @@ namespace Movy.Models
         public short SignUpFee { get; set; }
         public byte DurationInMonths { get; set; }
         public byte DiscountRate { get; set; }
+
+        public static readonly byte unkown = 0;
+        public static readonly byte PayAsYouGo = 1;
     }
 }
