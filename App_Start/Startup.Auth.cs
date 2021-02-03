@@ -54,9 +54,9 @@ namespace Movy
             //   consumerKey: "",
             //   consumerSecret: "");
 
-            //app.UseFacebookAuthentication(
-            //   appId: "",
-            //   appSecret: "");
+            app.UseFacebookAuthentication(
+               appId: "2882046288742469",
+               appSecret: "48ceb26e8bf022cbb752cc7cf0eea3fa");
 
             //app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
             //{
