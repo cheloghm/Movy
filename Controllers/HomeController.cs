@@ -9,6 +9,8 @@ namespace Movy.Controllers
     [AllowAnonymous]
     public class HomeController : Controller
     {
+        //[OutputCache(Duration = 0, Location = System.Web.UI.OutputCacheLocation.Server, VaryByParam = "*", NoStore = true)]
+        [OutputCache(Duration = 0, VaryByParam = "*", NoStore = true)]
         public ActionResult Index()
         {
             return View();

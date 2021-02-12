@@ -25,10 +25,12 @@ textarea {
 
 /*******************MY CSS Codes Starts here*******************/
 
-.field-validation-error{
+.field-validation-error,
+label.error {
     color: red;
 }
 
-.field-validation-error{
+.field-validation-error,
+input.error {
     border: 2px solid red;
 }

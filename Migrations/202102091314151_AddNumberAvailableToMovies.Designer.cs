@@ -7,18 +7,18 @@ namespace Movy.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.2.0-61023")]
-    public sealed partial class AddPhoneToApplicationUser : IMigrationMetadata
+    public sealed partial class AddNumberAvailableToMovies : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(AddPhoneToApplicationUser));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(AddNumberAvailableToMovies));
         
         string IMigrationMetadata.Id
         {
-            get { return "202102061827566_AddPhoneToApplicationUser"; }
+            get { return "202102091314151_AddNumberAvailableToMovies"; }
         }
         
         string IMigrationMetadata.Source
         {
-            get { return Resources.GetString("Source"); }
+            get { return null; }
         }
         
         string IMigrationMetadata.Target
